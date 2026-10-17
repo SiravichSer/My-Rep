@@ -1,24 +1,114 @@
-<!DOCTYPE html>
-<html lang="en">
 
+<!DOCTYPE html>
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Page | Profile</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <img height = "200" width = "200" src = "Ken.jpg" alt = "This is Ken Image.">
-    <h1>Hello my name is Siravich Sermsillapakul</h1>
-    <h2>My nickname is Ken</h2>
-    <h3>Faculty of Computer Engineering and Artificial intelligence(CAI)</h3>
-    <h3>Section: 1.2-1 (Monday Morning)</h3>
-    <p>&emsp;&emsp;The reason that I want to study Full Stack Dev is because it kinda fun to create get a lot of thing then make them into one work.</p>
-    <p>The thing that I hope to get form this subject is more understanding about Full Stack and apply the knowledge to the other thing.</p>
-    <p>My weakness in programing is that I don't have enough knowledge to do something that understanding how its work but don't know how to convert into a code so I need to gather more knowledge about the programing.</p>
-    <a href = "https://svlabo.jp/">Interested site</a><br>
-    <img height = "200" width = "200" src = "Eva.jpg" alt = "This is Interested Image.">
+    <header class="site-header">
+        <h1>My Personal Page</h1>
+        <p>Welcome to my profile</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact Me</a>
+        </nav>
+    </header>
 
+    <main class="container">
+        <section class="card">
+            <h2>My Profile</h2>
+
+            <table class="profile-table">
+                <tr>
+                    <td>
+                        
+                     <img class="profile-image"
+                          src="ken.jpg"
+                          alt="รูปโปรไฟล์ของฉัน">
+
+                    </td>
+                    <td class="profile-info">
+                        <h3>Siravich Sermsillapakul</h3>
+                        <p><strong>Position:</strong> Student</p>
+                        <p><strong>Major:</strong> Computer Engineering and AI</p>
+                        <p><strong>Institution:</strong> PIM</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="card">
+            <h2>About Me</h2>
+            <p>
+                สวัสดีครับ ผมเป็นนักศึกษาที่สนใจด้านเทคโนโลยี
+                การเขียนโปรแกรม และปัญญาประดิษฐ์
+                ผมต้องการพัฒนาทักษะและเรียนรู้สิ่งใหม่ ๆ อยู่เสมอ
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>My Favorite Foods</h2>
+            <ol>
+                <li>Pizza</li>
+                <li>Salmon</li>
+                <li>Ramen</li>
+            </ol>
+        </section>
+
+        <section class="card">
+            <h2>Skills</h2>
+            <table class="skills-table">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>★★★☆☆</td>
+                        <td>CSS</td>
+                        <td>★★★☆☆</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>★★★☆☆</td>
+                        <td>Java</td>
+                        <td>★★☆☆☆</td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td>★★★☆☆</td>
+                        <td>AI</td>
+                        <td>★★☆☆☆</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="card">
+            <h2>Experience</h2>
+            <ul>
+                <li>Learning HTML and CSS</li>
+                <li>Practicing Python programming</li>
+                <li>Working at 7-11 for 3 Months</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>
+            <a href="https://github.com/">GitHub</a>
+            |
+            <a href="contact.html">Contact Me</a>
+        </p>
+        <p>&copy; 2026 My Personal Page</p>
+    </footer>
 </body>
-
 </html>
